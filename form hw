@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <div style="background-image:
+    url('https://th.bing.com/th/id/OIP.EidyQq3fvy92KrSvPqjh4QHaEK?pid=ImgDet&rs=1') ;"
+</head>
+<body>
+    <h1> <i><u> Profile  </u></i> </h1>
+    <form id="myform"><pre>
+      NAME :         <input type="text" placeholder="YOUR NAME"/> 
+    DOB:         <input type="date">
+    
+    FATHER'S NAME : <input type="text" placeholder="FATHER'S NAME"/>
+    MOTHER'S NAME : <input type="text" placeholder="MOTHER'S NAME"/>
+    <br/> GENDER: 
+    <input type="radio" id="male" name = "gender" value ="male"><label for="male"> MALE</label>
+    <input type="radio" id="female" name = "gender" value ="female"><label for="female"> FEMALE</label>
+    <input type="radio" id="other" name = "gender" value ="other"><label for="other"> OTHER</label>
+    <br/> AGE:               <input type="number" placeholder="AGE"/>
+    <br/> CONTACT NO. :      <input type="tel" placeholder="YOUR NUMBER" />
+    <br/> ROLL NO. :         <input type="number" placeholder="ROLL NUMBER"/>
+    <br/> EMAIL:             <input type="email" placeholder="E-MAIL"/>
+    <br/> PASSWORD:          <input type="password" placeholder="Password"/>
+    <br/> COLLEGE NAME:      <input type="text" placeholder="COLLEGE NAME"/> 
+    Which of the following are you interested in?
+    <input type="radio" id="cp" name = "course1" value ="cp"><label for="cp"> COMPETITIVE PROGRAMMING</label>
+    <input type="radio" id="ad" name = "course2" value ="ad"><label for="ad"> ANDROID DEVELOPMENT</label>
+    <input type="radio" id="wd" name = "course3" value ="wd"><label for="wd"> WEB DEVELOPMENT</label>
+    </pre>
+    <center><br/> <input type="submit" value="Submit" </center>
+
+    </form>
+    
+</body>
+</html>
